@@ -1,2 +1,4 @@
 # warteg-kece
-dibuat dengan html, css dan simple javascript
+Dibuat dengan html, css dan simple javascript
+
+link untuk demo <a href="https://junaediakbar.github.io/warteg-kece/">ini</a>
