@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Warung Tegal</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <p>Warung Tegal</p>
+        <button class="burger" id="burger">☰</button>
+        <ul>
+          <li>
+            <a href="#hero" class="btn-home"> Home </a>
+          </li>
+          <li>
+            <a href="#special" class="btn-special"> Special </a>
+          </li>
+          <li>
+            <a href="#menu" class="btn-menu"> Menu </a>
+          </li>
+          <li>
+            <a href="#about" class="btn-about"> About </a>
+          </li>
+          <li>
+            <a href="#contact" class="btn-contact"> Contact </a>
+          </li>
+        </ul>
+      </nav>
+      <section class="hero" id="hero">
+        <div class="hero-text">
+          <h1>Enjoy your traditional food anytime</h1>
+          <p>Hey, Welcome to our official website</p>
+          <a href="#menu" class="hero-btn">Explore Now</a>
+        </div>
+        <img src="hero.svg" alt="" />
+      </section>
+    </header>
+    <section class="product-cat">
+      <h2 class="product-cat-title">Our Menus</h2>
+      <div class="categories">
+        <div class="card">
+          <div class="card-img">
+            <img src="img/cat-1.svg" alt="" />
+          </div>
+          <div class="card-text">
+            <h2>Soto</h2>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-img">
+            <img src="img/cat-2.svg" alt="" />
+          </div>
+          <div class="card-text">
+            <h2>Camilan</h2>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-img">
+            <img src="img/cat-3.svg" alt="" />
+          </div>
+          <div class="card-text">
+            <h2>Pecel</h2>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-img">
+            <img src="img/cat-4.svg" alt="" />
+          </div>
+          <div class="card-text">
+            <h2>Ayam</h2>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-img">
+            <img src="img/cat-5.svg" alt="" />
+          </div>
+          <div class="card-text">
+            <h2>Daging</h2>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-img">
+            <img src="img/cat-6.svg" alt="" />
+          </div>
+          <div class="card-text">
+            <h2>Gorengan</h2>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="special" id="special">
+      <h2 class="special-text">Special Offers</h2>
+      <div class="carousel">
+        <button class="carousel__button carousel__button--left">
+          <img src="./img/left.svg" alt="" />
+        </button>
+        <div class="carousel__track-container">
+          <ul class="carousel__track">
+            <li class="carousel__slide current-slide">
+              <img class="carousel__image" src="./img/slide-1.jpg" alt="" />
+              <a href="#" class="carousel-btn"> Buy now</a>
+            </li>
+            <li class="carousel__slide">
+              <img class="carousel__image" src="./img/slide-2.jpg" alt="" />
+            </li>
+            <li class="carousel__slide">
+              <img class="carousel__image" src="./img/slide-3.jpg" alt="" />
+            </li>
+          </ul>
+        </div>
+        <button class="carousel__button carousel__button--right">
+          <img src="./img/right.svg" alt="" />
+        </button>
+
+        <div class="carousel__nav">
+          <button class="carousel__indicator current-slide"></button>
+          <button class="carousel__indicator"></button>
+          <button class="carousel__indicator"></button>
+        </div>
+      </div>
+    </section>
+
+    <section class="menu" id="menu">
+      <div class="menu-list">
+        <div class="card-menu">
+          <img src="img/menu-1.jpg" alt="" />
+          <h2>Soto Lamongan</h2>
+          <div class="card-menu-text">
+            <div class="details">
+              <h4>Details:</h4>
+              <ul>
+                <li>Soto</li>
+                <li>Kerupuk</li>
+                <li>Air Mineral</li>
+              </ul>
+              <h3>Rp. 19.000</h3>
+            </div>
+          </div>
+        </div>
+        <div class="card-menu">
+          <img src="img/menu-2.jpg" alt="" />
+          <h2>Nasi Pecel Original</h2>
+          <div class="card-menu-text">
+            <div class="details">
+              <h4>Details:</h4>
+              <ul>
+                <li>Nasi pecel</li>
+                <li>Ayam/ikan</li>
+                <li>Air Mineral</li>
+              </ul>
+              <h3>Rp. 13.000</h3>
+            </div>
+          </div>
+        </div>
+        <div class="card-menu">
+          <img src="img/menu-3.jpg" alt="" />
+          <h2>Sate Usus Ayam</h2>
+          <div class="card-menu-text">
+            <div class="details">
+              <h4>Details:</h4>
+              <ul>
+                <li>Sate Usus</li>
+                <li>Kerupuk</li>
+                <li>Sambel</li>
+              </ul>
+              <h3>Rp. 2.000</h3>
+            </div>
+          </div>
+        </div>
+        <div class="card-menu">
+          <img src="img/menu-4.jpg" alt="" />
+          <h2>Nasi Rawon</h2>
+          <div class="card-menu-text">
+            <div class="details">
+              <h4>Details:</h4>
+              <ul>
+                <li>Rawon</li>
+                <li>Nasi</li>
+                <li>Air Mineral</li>
+              </ul>
+              <h3>Rp. 21.000</h3>
+            </div>
+          </div>
+        </div>
+        <div class="card-menu">
+          <img src="img/menu-5.jpg" alt="" />
+          <h2>Nasi Ayam Bakar</h2>
+          <div class="card-menu-text">
+            <div class="details">
+              <h4>Details:</h4>
+              <ul>
+                <li>Ayam Bakar</li>
+                <li>Nasi</li>
+                <li>Air Mineral</li>
+              </ul>
+              <h3>Rp. 19.000</h3>
+            </div>
+          </div>
+        </div>
+        <div class="card-menu">
+          <img src="img/menu-6.jpg" alt="" />
+          <h2>Nasi Ayam Goreng</h2>
+          <div class="card-menu-text">
+            <div class="details">
+              <h4>Details:</h4>
+              <ul>
+                <li>Ayam Goreng</li>
+                <li>Nasi</li>
+                <li>Air Mineral</li>
+              </ul>
+              <h3>Rp. 19.000</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="contact">
+      <div class="about-us" id="about">
+        <h2>About us</h2>
+        <p>
+          Warung Tegal atau disebut juga (Warung Tegal Bahari) adalah salah satu
+          jenis usaha gastronomi yang menyediakan makanan dan minuman dengan
+          harga terjangkau. Biasa juga disingkat Warteg, nama ini seolah sudah
+          menjadi istilah generik untuk warung makan kelas menengah ke bawah di
+          pinggir jalan, baik yang berada di kota Tegal maupun di tempat lain,
+          baik yang dikelola oleh orang asal Tegal maupun dari daerah lain.
+        </p>
+      </div>
+      <div class="contact-us" id="contact">
+        <h2>Contact Us</h2>
+        <p>Warung tegal di seluruh Indonesia</p>
+      </div>
+    </section>
+    <footer>&copy 2021 Junaedi Akbar</footer>
+    <script src="./js/carousel.js"></script>
+    <script src="./js/navbar.js"></script>
+    <script src="./js/scroll.js"></script>
+  </body>
+</html>
