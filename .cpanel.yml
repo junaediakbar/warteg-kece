@@ -1,7 +1,7 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/u1575315/public_html/
+    - export DEPLOYPATH=/home/u1575315/public_html/warteg-kece
     - /bin/cp index.html $DEPLOYPATH
     - /bin/cp style.css $DEPLOYPATH
     - /bin/cp hero.svg $DEPLOYPATH
